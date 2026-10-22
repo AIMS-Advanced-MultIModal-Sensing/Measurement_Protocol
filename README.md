@@ -1,4 +1,4 @@
-# Coleta de dados cardíacos – Polar H10
+# Coleta de dados cardíacos e respiratórios – Polar H10
 
 Scripts em Python para gravar e organizar dados da cinta **Polar H10**.
 Neste script são coletados dados do acelerômetro.
@@ -61,4 +61,11 @@ coletas/
 | `ecg.csv` | `timestamp_local`, `timestamp_epoch_s`, `ecg_uV` |
 | `acc.csv` | `timestamp_local`, `timestamp_epoch_s`, `x_mg`, `y_mg`, `z_mg` |
 | `hr.csv` | `timestamp_local`, `timestamp_epoch_s`, `hr_bpm`, `rr_ms` |
+
+# Coleta de dados cardíacos e respiratórios – Hexoskin
+
+Site para cadastro:
+
+https://api.hexoskin.com/api/connect/login/?next=%2Foauth2%2Fauthorize%2F%3Fresponse_type%3Dtoken%26state%3D17926759343262456%26client_id%3DT0IMLTqekAin4vbY2%26redirect_uri%3Dhttps%253A%252F%252Fmy.hexoskin.com%252F
+
 
